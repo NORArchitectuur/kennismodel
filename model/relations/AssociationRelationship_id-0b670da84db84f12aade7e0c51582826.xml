@@ -1,0 +1,13 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Schrijft voor"
+    id="id-0b670da84db84f12aade7e0c51582826"
+    directed="true">
+  <source
+      xsi:type="archimate:Product"
+      href="Product_id-61f4a453fdea45aa9e4272c8b56edcca.xml#id-61f4a453fdea45aa9e4272c8b56edcca"/>
+  <target
+      xsi:type="archimate:Requirement"
+      href="Requirement_id-aa766b2ce2d9457686330114698c8e3a.xml#id-aa766b2ce2d9457686330114698c8e3a"/>
+</archimate:AssociationRelationship>
