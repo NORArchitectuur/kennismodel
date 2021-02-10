@@ -1,12 +1,12 @@
-<archimate:InfluenceRelationship
+<archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Beïnvloedt"
-    id="id-87c23c8f521542b6ba0694994e7e7dca">
+    id="id-00b6c5ad8289467f8a8a14ca70298f24"
+    directed="true">
   <source
-      xsi:type="archimate:Contract"
-      href="Contract_id-93dc2e26b1db47888b81304f93d527ba.xml#id-93dc2e26b1db47888b81304f93d527ba"/>
+      xsi:type="archimate:Principle"
+      href="Principle_id-05752c75200d4522b8fb09302ed6684f.xml#id-05752c75200d4522b8fb09302ed6684f"/>
   <target
       xsi:type="archimate:Principle"
       href="Principle_id-8616e5af493b4611bcf387cb03e97029.xml#id-8616e5af493b4611bcf387cb03e97029"/>
-</archimate:InfluenceRelationship>
+</archimate:AssociationRelationship>

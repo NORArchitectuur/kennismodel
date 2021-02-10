@@ -1,0 +1,12 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Realiseert of Gebruikt"
+    id="id-815fbe54a91d47459b8447715a7260c6">
+  <source
+      xsi:type="archimate:Product"
+      href="Product_id-61f4a453fdea45aa9e4272c8b56edcca.xml#id-61f4a453fdea45aa9e4272c8b56edcca"/>
+  <target
+      xsi:type="archimate:Product"
+      href="Product_id-61f4a453fdea45aa9e4272c8b56edcca.xml#id-61f4a453fdea45aa9e4272c8b56edcca"/>
+</archimate:ServingRelationship>
