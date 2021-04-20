@@ -1,0 +1,13 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="past toe"
+    id="id-a69481cfad6b4638b449ba286695ff0b"
+    directed="true">
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-e49a021525584fdcaddffaea66f65166.xml#id-e49a021525584fdcaddffaea66f65166"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-20b7de4a0263408a8f9a49f114bd6a1a.xml#id-20b7de4a0263408a8f9a49f114bd6a1a"/>
+</archimate:AssociationRelationship>

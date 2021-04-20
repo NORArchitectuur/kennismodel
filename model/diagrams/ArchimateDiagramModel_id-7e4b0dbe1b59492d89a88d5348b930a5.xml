@@ -47,6 +47,26 @@
           xsi:type="archimate:InfluenceRelationship"
           href="InfluenceRelationship_id-18272d33ed0049cfbffa9b2ad24ea346.xml#id-18272d33ed0049cfbffa9b2ad24ea346"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-cbd4763b68374c33894f40e0dee5fd71"
+        textPosition="2"
+        source="id-a502bf2206b94391bce37c89d39e1a1b"
+        target="id-09f233bce5c445dca4b011738f5bb809">
+      <bendpoints
+          startX="636"
+          startY="-15"
+          endX="264"
+          endY="651"/>
+      <bendpoints
+          startX="636"
+          startY="-675"
+          endX="264"
+          endY="-9"/>
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-1cdb0ead0d7b4d1eaa053d0a97af4619.xml#id-1cdb0ead0d7b4d1eaa053d0a97af4619"/>
+    </sourceConnections>
     <bounds
         x="48"
         y="636"
@@ -472,9 +492,9 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-cf3f9c4f992940489633c5d21bb85b17">
     <bounds
-        x="745"
-        y="87"
-        width="119"
+        x="709"
+        y="108"
+        width="155"
         height="45"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -525,9 +545,9 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5cb6c3a0f3144ab7ad315529456dfc19">
     <bounds
-        x="744"
-        y="222"
-        width="121"
+        x="708"
+        y="238"
+        width="157"
         height="43"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -599,9 +619,9 @@
       textAlignment="1"
       content="elk element kan een bron hebben">
     <bounds
-        x="744"
-        y="264"
-        width="121"
+        x="708"
+        y="280"
+        width="157"
         height="37"/>
   </children>
   <children
@@ -610,10 +630,10 @@
       textAlignment="1"
       content="niet expliciet gelinkt, maar automatisch getoond indien voorkomt in beschrijvingen">
     <bounds
-        x="745"
-        y="131"
-        width="119"
-        height="86"/>
+        x="709"
+        y="152"
+        width="155"
+        height="74"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -672,6 +692,7 @@
     </sourceConnections>
     <bounds
         x="913"
+        y="34"
         width="119"
         height="43"/>
     <archimateElement
@@ -688,6 +709,11 @@
         textPosition="0"
         source="id-ad3f887b4e7c41669f7a45ae1cf1a97a"
         target="id-944aa28e02434963a63a9b2d6d256912">
+      <bendpoints
+          startX="-36"
+          startY="210"
+          endX="804"
+          endY="60"/>
       <bendpoints
           startX="-36"
           startY="438"
@@ -718,11 +744,12 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-09f233bce5c445dca4b011738f5bb809">
+      id="id-09f233bce5c445dca4b011738f5bb809"
+      targetConnections="id-cbd4763b68374c33894f40e0dee5fd71">
     <bounds
-        x="744"
+        x="708"
         y="-24"
-        width="121"
+        width="157"
         height="43"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -732,12 +759,12 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-a4d38301813a4431832cf9757764b222"
       textAlignment="1"
-      content="elk element kan binnen een thema vallen&#xD;&#xA;">
+      content="Onderwerp kan in Thema uitgewerkt worden.&#xD;&#xA;&#xD;&#xA;">
     <bounds
-        x="744"
+        x="708"
         y="18"
-        width="121"
-        height="59"/>
+        width="157"
+        height="41"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -779,7 +806,7 @@
     </sourceConnections>
     <bounds
         x="912"
-        y="182"
+        y="204"
         width="121"
         height="55"/>
     <archimateElement
@@ -792,7 +819,7 @@
       targetConnections="id-1b9427b343314013920fa6036a432ab7 id-b5542b8662d248faaa8220a888474248">
     <bounds
         x="912"
-        y="89"
+        y="120"
         width="121"
         height="41"/>
     <archimateElement
@@ -803,7 +830,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-4098f0cf150c4ce8987a6b0d463ce6ca"
       textAlignment="1"
-      content="ook voormalige bouwsteen">
+      content="ook voormalige voorziening">
     <bounds
         x="648"
         y="588"
@@ -856,5 +883,16 @@
     <archimateElement
         xsi:type="archimate:Principle"
         href="Principle_id-05752c75200d4522b8fb09302ed6684f.xml#id-05752c75200d4522b8fb09302ed6684f"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-a9fbc9a3813146dcaf44b243107459fe"
+      textAlignment="1"
+      content="elk element kan binnen een Thema vallen.">
+    <bounds
+        x="708"
+        y="58"
+        width="157"
+        height="39"/>
   </children>
 </archimate:ArchimateDiagramModel>

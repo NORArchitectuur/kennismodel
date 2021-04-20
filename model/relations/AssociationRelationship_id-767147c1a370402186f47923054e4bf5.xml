@@ -1,0 +1,13 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="heeft redacteur"
+    id="id-767147c1a370402186f47923054e4bf5"
+    directed="true">
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-7150246415134b198fd457be0ecd8024.xml#id-7150246415134b198fd457be0ecd8024"/>
+  <target
+      xsi:type="archimate:BusinessActor"
+      href="BusinessActor_id-91606ef8e84241e9bb3f2d9c0654c100.xml#id-91606ef8e84241e9bb3f2d9c0654c100"/>
+</archimate:AssociationRelationship>
